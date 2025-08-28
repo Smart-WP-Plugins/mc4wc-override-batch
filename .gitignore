@@ -1,0 +1,115 @@
+# -------------------------
+# OS-Specific
+# -------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# -------------------------
+# IDE / Editors
+# -------------------------
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# PHPStorm
+.phpstorm.meta.php
+
+# Generic editors
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.tmproj
+
+# -------------------------
+# WordPress
+# -------------------------
+# Core files (let composer/wp-cli handle versioning if needed)
+wp-admin/
+wp-includes/
+wp-content/cache/
+wp-content/backups/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/plugins/hello.php
+
+# Ignore all plugins/themes except custom ones
+!wp-content/plugins/my-custom-plugin/
+!wp-content/themes/my-custom-theme/
+
+# -------------------------
+# Node.js / JavaScript
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+
+# -------------------------
+# PHP / Composer
+# -------------------------
+vendor/
+composer.lock
+
+# -------------------------
+# Logs / Cache
+# -------------------------
+*.log
+*.sql
+*.sqlite
+*.bak
+*.tmp
+.cache/
+dist/
+build/
+.env
+.env.local
+.env.*
+*.pid
+
+# -------------------------
+# Miscellaneous
+# -------------------------
+coverage/
+tmp/
+.idea_modules/
+__pycache__/
+*.py[cod]
+*.class
+*.jar
+*.war
+*.ear
+
+# -------------------------
+# By convention, keep these tracked if needed
+# !.gitignore
+# !.env.example

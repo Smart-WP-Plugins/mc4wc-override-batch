@@ -1,0 +1,17 @@
+{
+  "name": "smartwpplugins/mc4wc-override-batch",
+  "description": "Admin checkbox + WooCommerce Status Tool to subscribe users via Mailchimp for WooCommerce (MC4WC). No extra meta; uses MC4WC queue.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Smart WP Plugins",
+      "email": "info@smartwpplugins.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SWP\\MailchimpConsent\\": "src/"
+    }
+  }
+}
